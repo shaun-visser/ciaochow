@@ -1,0 +1,16 @@
+.swiper-wrapper {
+  .swiper-pagination-bullets {
+    @apply z-20;
+    .swiper-pagination-bullet {
+      @apply bg-gray opacity-100;
+      &.swiper-pagination-bullet-active {
+        @apply bg-white;
+      }
+    }
+  }
+  &.food-slider {
+    .swiper-pagination-bullets {
+      @apply bottom-[38px];
+    }
+  }
+}
